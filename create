@@ -19,7 +19,7 @@ task = json.loads(task_arg)  # Get dict to read attributes
 link = conf["remote_link"]
 link.replace("{hash}", task["hash"])
 link.replace("{file_name}", task["file_name"])
-link.replace("{file_line}", task["file_line"])
+link.replace("{file_line}", str(task["file_line"]))
 link.replace("{branch}", task["branch"])
 
 

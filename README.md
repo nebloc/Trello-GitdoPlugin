@@ -7,7 +7,7 @@ For more information on how Gitdo plugins can be developed or used, see the [Git
 # How it works
 The plugin is comprised of 4 'functions':
 * [`setup`](#setup)
-* [`getid`](#getid)
+* [`getid`](#get-id)
 * [`create`](#create)
 * [`done`](#done)
 
@@ -37,8 +37,9 @@ The link is to point to the exact location in the remote git repository of when 
 the card added to Trello will have a permalink to the comment.
 
 An example of this being used is the link https://github.com/nebloc/gitdo/blob/4892f877b299c00220c16f43ce377d1ca45b6a51/commit.go#L55 on [this](https://trello.com/c/G8F6PYby) Trello card.
-[trello]: https://trello.com/app-key)
 
 ## [Get ID](getid)
 ## [Create](create)
 ## [Done](done)
+
+[trello]: https://trello.com/app-key

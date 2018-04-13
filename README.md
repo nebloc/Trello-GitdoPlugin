@@ -4,14 +4,24 @@ This is a plugin for [Gitdo](https://github.com/nebloc/Gitdo) built in [Python 3
 
 For more information on how Gitdo plugins can be developed or used, see the [Gitdo Wiki](https://github.com/nebloc/Gitdo/wiki/Plugins).
 
-# How it works
+## Install
+Windows:
+```
+git clone https://github.com/nebloc/Trello-GitdoPlugin.git %AppData%\Gitdo\plugins\Trello
+```
+Mac and Linux:
+```
+git clone https://github.com/nebloc/Trello-GitdoPlugin.git ~/.gitdo/plugins/Trello
+```
+
+## How it works
 The plugin is comprised of 4 'functions':
 * [`setup`](#setup)
 * [`getid`](#get-id)
 * [`create`](#create)
 * [`done`](#done)
 
-## [Setup](setup)
+### [Setup](setup)
 Asks the user for information that the plugin needs, in order to interact with Trello.
 
 The idea of Gitdo is to configure early, and then get out of the way. So this function will save the settings of the project which are:
@@ -38,8 +48,8 @@ the card added to Trello will have a permalink to the comment.
 
 An example of this being used is the link https://github.com/nebloc/gitdo/blob/4892f877b299c00220c16f43ce377d1ca45b6a51/commit.go#L55 on [this](https://trello.com/c/G8F6PYby) Trello card.
 
-## [Get ID](getid)
-## [Create](create)
-## [Done](done)
+### [Get ID](getid)
+### [Create](create)
+### [Done](done)
 
 [trello]: https://trello.com/app-key

@@ -42,8 +42,13 @@ The easiest way I have found to get the ID of a list on Trello, is:
 ##### Remote link
 This is an example of something that can be added to a card in Trello to provide the most information possible.
 
-The link is to point to the exact location in the remote git repository of when the commit that contained the TODO happened, i.e. for Github, given the remote link  
-`https://github.com/nebloc/Trello-GitdoPlugin/blob/{hash}/{file_name}#L{file_line}`,
+The link is to point to the exact location in the remote git repository of when the commit that contained the TODO happened, i.e. for Github, given a remote link such as,
+```
+# GITHUB
+https://github.com/<username>/<your_project>/blob/{hash}/{file_name}#L{file_line}
+# BITBUCKET
+https://bitbucket.org/<username>/<your_project>/src/{hash}/{file_name}#{file_name}-{file_line}
+```
 the card added to Trello will have a permalink to the comment.
 
 An example of this being used is the link https://github.com/nebloc/gitdo/blob/4892f877b299c00220c16f43ce377d1ca45b6a51/commit.go#L55 on [this](https://trello.com/c/G8F6PYby) Trello card.

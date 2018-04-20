@@ -2,6 +2,8 @@
 ### General notice
 This is a plugin for [Gitdo](https://github.com/nebloc/Gitdo) built in [Python 3](https://www.python.org/downloads/release/latest). It is bundled with the Gitdo application, and should be considered an example implementation of a plugin; as Gitdo's plugin interaction changes, this will be the most up to date example on how it works.
 
+The [interp file](https://github.com/nebloc/Trello-GitdoPlugin/blob/master/interp) tells Gitdo the command to run the files, if your Python 3 uses something different, e.g. `python`, change this file before running gitdo.
+
 For more information on how Gitdo plugins can be developed or used, see the [Gitdo Wiki](https://github.com/nebloc/Gitdo/wiki/Plugins).
 
 ## Install

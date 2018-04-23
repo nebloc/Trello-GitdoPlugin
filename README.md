@@ -4,6 +4,8 @@ This is a plugin for [Gitdo](https://github.com/nebloc/Gitdo) built in [Python 3
 
 The [interp file](https://github.com/nebloc/Trello-GitdoPlugin/blob/master/interp) tells Gitdo the command to run the files, if your Python 3 uses something different, e.g. `python`, change this file before running gitdo.
 
+#### NEEDS GITDO VERSION HIGHER THAN V0.0.8 as changes were made to create, that switches which order arguments are given to the create function. For versions lower, please download the previous Gitdo release and use the plugin bundled there.
+
 For more information on how Gitdo plugins can be developed or used, see the [Gitdo Wiki](https://github.com/nebloc/Gitdo/wiki/Plugins).
 
 ## Install

@@ -1,6 +1,11 @@
 #!/usr/bin/python3
 import helper
 import json
+import sys
+
+if sys.version_info < (3, 0):
+    print("Wrong interpreter. Try 'python3'.")
+    exit(1)
 
 print("Setup of Trello Gitdo Plugin")
 conf = {}
